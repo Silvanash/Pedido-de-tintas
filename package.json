@@ -4,7 +4,7 @@
     "description": "Pedido de Tintas da Falb",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js",
+      "start": "node index.html",
       "build": "comando-de-build-se-necessario"
     },
     "author": "Silvanash",
