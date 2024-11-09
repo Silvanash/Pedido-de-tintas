@@ -2,7 +2,7 @@
     "name": "pedido-tintas",
     "version": "1.0.0",
     "description": "Pedido de Tintas da Falb",
-    "main": "index.js",
+    "main": "index.html",
     "scripts": {
       "start": "node index.html",
       "build": "comando-de-build-se-necessario"
