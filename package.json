@@ -1,15 +1,20 @@
 {
-    "name": "pedido-tintas",
-    "version": "1.0.0",
-    "description": "Pedido de Tintas da Falb",
-    "main": "index.html",
-    "scripts": {
-      "start": "node index.html",
-      "build": "comando-de-build-se-necessario"
-    },
-    "author": "Silvanash",
-    "license": "MIT",
-    "dependencies": {
-      "express": "^4.18.2" 
+  "name": "pedido-tintas",
+  "version": "1.0.0",
+  "description": "Pedidos de tintas",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Nenhum processo de build necessário para projetos estáticos'",
+    "deploy": "vercel --prod"
+  },
+  "author": "Silvanash",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
